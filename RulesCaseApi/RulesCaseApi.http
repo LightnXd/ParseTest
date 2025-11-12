@@ -1,0 +1,6 @@
+@RulesCaseApi_HostAddress = http://localhost:5176
+
+GET {{RulesCaseApi_HostAddress}}/api/portcalls/activities?function=L
+Accept: application/json
+
+###
