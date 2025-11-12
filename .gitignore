@@ -1,1 +1,54 @@
-/Rules-Case
+# Visual Studio / .NET
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+artifacts/
+
+# Publish output
+publish/
+*.Publish.xml
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Runtime files
+*.exe
+*.dll
+*.pdb
+
+# Local secrets and env
+.env
+.env.*
+secrets.json
+
+# Docker
+docker-compose.override.yml
+
+# Others
+node_modules/
+coverage/
+
+# Ignore user-specific launch settings if you prefer (optional)
+# Properties/launchSettings.json
